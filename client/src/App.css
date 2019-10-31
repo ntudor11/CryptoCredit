@@ -1,0 +1,381 @@
+@font-face {
+  font-family: 'SansForgetica';
+  src: url('./fonts/SansForgetica-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuRegular';
+  src: url('./fonts/Ubuntu-R.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#logotext {
+  font-family: SansForgetica;
+  color: #53ADDF;
+}
+
+#contract-form {
+  max-width: 500px;
+  margin:3em auto;
+}
+
+.indexedStep {
+  color: white;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background-color: rgba(211, 211, 211, 0.8);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexedStep.accomplished {
+  background-color: rgba(0, 116, 217, 1);
+}
+
+#logotext span {
+  color: #4277A9;
+}
+
+.App-logo {
+  height: 70px;
+}
+
+.App {
+  font-family: UbuntuRegular;
+}
+
+#root {
+  background-image: linear-gradient(rgba(255,255,255, .5), rgba(66,119,169, .5)), url('./bg7.svg');
+  background-position:center, top left;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed, fixed !important;
+  min-height:100vh;
+  height:100%;
+  padding-bottom: 5%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#error-placeholder {
+  margin: 2em;
+}
+
+#error-placeholder p {
+  padding:1em;
+  border:1px solid red;
+  color: red;
+}
+
+.active {
+  color: #4277A9 !important;
+  border-bottom: 2px solid #4277A9 !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index:1000000;
+}
+
+.navbar {
+  border-bottom:1px solid rgba(66, 119, 169, .5);
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-nav .nav-link {
+  text-align:right !important;
+  width:max-content;
+  padding: 10px 10px;
+  border: 2px solid rgba(0,0,0,0);
+  float:right;
+  -webkit-transition:0.25s;
+  transition:0.25s;
+  position:relative;
+}
+
+
+.navbar-nav .nav-link:after {
+  content: '';
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #4277A9;
+  width: 0;
+  position: absolute;
+  right: 0;
+  -webkit-transition: .25s ease;
+  transition: .25s ease;
+}
+
+.navbar-nav .nav-link:hover:after {
+  width: 100%;
+}
+
+/* .navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #4277A9;
+} */
+
+.container {
+  margin-top:4em;
+}
+
+.container-front {
+  margin-top:20vh;
+}
+
+.container-form {
+  background-color: #ffffff;
+  max-width: 600px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 2em;
+  margin: 2em auto;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0;
+}
+
+.form-control {
+  border-bottom: 2px solid #4277A9;
+  border-radius: 0px;
+  border-top:0px;
+  border-left:0px;
+  border-right:0px;
+}
+
+.form-control:active:focus,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+label:focus,
+.btn:active,
+.btn.active {
+  outline:0px !important;
+  -webkit-appearance:none !important;
+  box-shadow: none !important;
+}
+
+.kpi-val {
+  color: #4277A9;
+}
+
+.dash-left, .dash-right {
+  background-color: #fff;
+  border:1px solid rgba(66, 119, 169, .5);
+}
+
+.chartImg {
+  width:100%;
+}
+
+.main-kpis {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  padding:1em 0;
+  margin-bottom:2em;
+}
+
+.main-kpis .col-3:not(:last-child) {
+  border-right: 1px solid rgba(66, 119, 169, .5);
+}
+
+.usertransaction {
+  padding-top:3em !important;
+  padding-bottom:3em !important;
+}
+
+.usertransaction .userId {
+  margin-bottom: 0px;
+}
+
+.user-box, .usertransaction {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin:1em;
+  padding:10px;
+  background-color: #fff
+}
+
+.user-box .cta {
+  margin-top: 1em;
+  background-color: #4277A9;
+  border-radius:3px;
+  border: 2px solid #4277A9;
+  max-width: 250px;
+  transition:0.3s;
+  -webkit-transition:0.3s;
+}
+
+.user-box .cta:hover {
+  background-color: #ffffff;
+}
+
+.user-box .cta a{
+  color: #fff;
+  text-decoration: none;
+  transition:0.3s;
+  -webkit-transition:0.3s;
+}
+
+.user-box .cta a:hover {
+  color: #4277A9;
+}
+
+.aside {
+  background: white;
+  padding: 2em 1em;
+}
+
+.container-timeline {
+  margin-top: 0px;
+}
+
+.input-range {
+  width:80%;
+  margin:0 auto;
+}
+
+.timeline-item-date {
+  background: rgba(0,0,0,0);
+}
+
+.timeline .entry .title:before {
+  right: -10px !important;
+  border: 4px solid #4277A9;
+}
+
+.transaction-arrow {
+  margin-top:-1em;
+}
+
+.filter-container:not(:first-child) {
+  margin: 3.5em auto;
+}
+
+.filter-container:first-child {
+  margin-bottom:3.5em;
+}
+
+/* 404 error page */
+.not-found {
+
+  width: 100%;
+  height:100vh;
+}
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -400px;
+}
+.message-box {
+  height: 200px;
+  width: 380px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: 50px;
+  font-family: Ubuntu;
+  font-weight: 300;
+}
+.message-box h1 {
+  font-size: 60px;
+  line-height: 46px;
+  margin-bottom: 40px;
+}
+.buttons-con .action-link-wrap {
+  margin-top: 40px;
+}
+.buttons-con .action-link-wrap a {
+  background: #53ADDF;
+  padding: 8px 25px;
+  border-radius: 4px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px
+}
+.buttons-con .action-link-wrap a:hover {
+  background: #5A5C6C;
+  color: #fff;
+}
+
+#Polygon-1 , #Polygon-2 , #Polygon-3 , #Polygon-4 , #Polygon-4, #Polygon-5 {
+  animation: float 1s infinite ease-in-out alternate;
+}
+#Polygon-2 {
+  animation-delay: .2s;
+}
+#Polygon-3 {
+  animation-delay: .4s;
+}
+#Polygon-4 {
+  animation-delay: .6s;
+}
+#Polygon-5 {
+  animation-delay: .8s;
+}
+
+@keyframes float {
+	100% {
+    transform: translateY(20px);
+  }
+}
+@media (max-width: 450px) {
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -190px;
+  }
+  .message-box {
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -190px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  form {
+    width:80% !important;
+    margin:0 auto;
+  }
+}
