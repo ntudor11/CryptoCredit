@@ -6,6 +6,7 @@ A blockchain lending application prototype with Node.JS and Truffle for the back
 1. Start your local MySQL server.
 1. Run the SQL commands from within the file `create-db.sql` (ei􏰄he􏰁􏰊r via Terminal or t􏰄he Ph􏰃pMyAdmin􏰇 interface) from the root directory, in order to create the database and to write some test data in it.
 1. Clone the CryptoCredit repository.
+1. Install the dependencies both in the **root** directory and in the **client** directory with the command ```npm install```.
 1. To start the Node.JS server and the React application, run from the root directory: ```npm run dev```.
 1. To start the Truffle development server, run from the root directory: ```npm run truffle```.
 1. To start the decentralised side of the front-end application, run from the root directory: ```npm run eth```.
