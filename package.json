@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js & cd client && react-scripts start",
+    "truffle": "cd client/src/contract && truffle develop",
+    "eth": "cd client/src/web && php -S localhost:8000"
   },
   "author": "",
   "license": "ISC",

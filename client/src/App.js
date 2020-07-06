@@ -11,22 +11,16 @@ import Transactions from './components/Transactions'
 import Wallet from './components/Wallet'
 import Dashboard from './components/Dashboard'
 import NoMatch from './components/NotFound'
-// import logo from './logo-cc  .svg';
+import HttpProvider from './components/HttpProvider'
 import './App.css';
 import Web3 from 'web3';
 import Web3Provider from 'react-web3-provider';
-
-// const NoMatch = ({ location }) => (
-//   <div>
-//     <h3>No match for <code>{location.pathname}</code></h3>
-//   </div>
-// )
 
 class App extends Component {
   render() {
     return (
       <Web3Provider
-        defaultProvider={(cb) => cb(new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/YOUR_API_KEY")))}
+        defaultProvider={(cb) => cb(new Web3(new Web3.providers.HttpProvider(HttpProvider.provider)))}
         loading="Loading..."
         error={(err) => `Connection error: ${err.message}`}
     >
