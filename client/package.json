@@ -7,7 +7,7 @@
     "axios": "^0.21.2",
     "jwt-decode": "^2.2.0",
     "kind-of": "^6.0.3",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "npm-check": "^5.9.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
