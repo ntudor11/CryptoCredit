@@ -21,7 +21,7 @@
     "react-web3-provider": "^1.1.2",
     "solc": "^0.6.4",
     "vertical-timeline-component-for-react": "^1.0.6",
-    "web3": "^1.2.9"
+    "web3": "^4.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
