@@ -12860,7 +12860,7 @@ packages:
       mkdirp-promise: 5.0.1
       mock-fs: 4.13.0
       setimmediate: 1.0.5
-      tar: 4.4.13
+      tar: 4.4.19
       xhr-request: 1.1.0
     transitivePeerDependencies:
       - bufferutil
@@ -12914,8 +12914,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /tar@4.4.13:
-    resolution: {integrity: sha512-w2VwSrBoHa5BsSyH+KxEqeQBAllHhccyMFVHtGtdMpF4W7IRWfZjFiQceJPChOeTsSDVUpER2T8FA93pr0L+QA==}
+  /tar@4.4.19:
+    resolution: {integrity: sha512-a20gEsvHnWe0ygBY8JbxoM4w3SJdhc7ZAuxkLqh+nvNQN2IOt0B5lLgM490X5Hl8FF0dl0tOf2ewFYAlIFgzVA==}
     engines: {node: '>=4.5'}
     dependencies:
       chownr: 1.1.4
