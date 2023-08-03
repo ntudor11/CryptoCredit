@@ -5667,7 +5667,7 @@ packages:
     dev: false
 
   /decompress-response@3.3.0:
-    resolution: {integrity: sha1-gKTdMjdIOEv6JICDYirt7Jgq3/M=}
+    resolution: {integrity: sha512-BzRPQuY1ip+qDonAOz42gRm/pg9F768C+npV/4JOsxRC2sq+Rlk+Q4ZCAsOhnIaMrgarILY+RMUIvMmmX1qAEA==}
     engines: {node: '>=4'}
     dependencies:
       mimic-response: 1.0.1
@@ -12318,8 +12318,8 @@ packages:
     resolution: {integrity: sha512-cSFtAPtRhljv69IK0hTVZQ+OfE9nePi/rtJmw5UjHeVyVroEqJXP1sFztKUy1qU+xvz3u/sfYJLa947b7nAN2Q==}
     dev: false
 
-  /simple-get@2.8.1:
-    resolution: {integrity: sha512-lSSHRSw3mQNUGPAYRqo7xy9dhKmxFXIjLjp4KHpf99GEH2VH7C3AM+Qfx6du6jhfUi6Vm7XnbEVEf7Wb6N8jRw==}
+  /simple-get@2.8.2:
+    resolution: {integrity: sha512-Ijd/rV5o+mSBBs4F/x9oDPtTx9Zb6X9brmnXvMW4J7IR15ngi9q5xxqWBKU744jTZiaXtxaPL7uHG6vtN8kUkw==}
     dependencies:
       decompress-response: 3.3.0
       once: 1.4.0
@@ -14641,7 +14641,7 @@ packages:
       buffer-to-arraybuffer: 0.0.5
       object-assign: 4.1.1
       query-string: 5.1.1
-      simple-get: 2.8.1
+      simple-get: 2.8.2
       timed-out: 4.0.1
       url-set-query: 1.0.0
       xhr: 2.6.0
