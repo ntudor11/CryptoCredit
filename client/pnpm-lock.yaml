@@ -5167,8 +5167,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /cookiejar@2.1.2:
-    resolution: {integrity: sha512-Mw+adcfzPxcPeI+0WlvRrr/3lGVO0bD75SxX6811cxSh1Wbxx7xZBGK1eVtDf6si8rg2lhnUjsVLMFMfbRIuwA==}
+  /cookiejar@2.1.4:
+    resolution: {integrity: sha512-LDx6oHrK+PhzLKJU9j5S7/Y3jM/mUHvD/DeI1WQmJn652iPC5Y4TBzC9l+5OMOXlyTTA+SmVUPm0HQUwpD5Jqw==}
     dev: false
 
   /core-js-compat@3.31.0:
@@ -14650,7 +14650,7 @@ packages:
   /xhr2-cookies@1.1.0:
     resolution: {integrity: sha1-fXdEnQmZGX8VXLc7I99yUF7YnUg=}
     dependencies:
-      cookiejar: 2.1.2
+      cookiejar: 2.1.4
     dev: false
 
   /xhr@2.6.0:
