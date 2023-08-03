@@ -957,7 +957,7 @@ packages:
       rc: 1.2.8
       rimraf: 2.7.1
       semver: 5.7.2
-      tar: 4.4.13
+      tar: 4.4.19
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1473,8 +1473,8 @@ packages:
       has-flag: 3.0.0
     dev: false
 
-  /tar@4.4.13:
-    resolution: {integrity: sha512-w2VwSrBoHa5BsSyH+KxEqeQBAllHhccyMFVHtGtdMpF4W7IRWfZjFiQceJPChOeTsSDVUpER2T8FA93pr0L+QA==}
+  /tar@4.4.19:
+    resolution: {integrity: sha512-a20gEsvHnWe0ygBY8JbxoM4w3SJdhc7ZAuxkLqh+nvNQN2IOt0B5lLgM490X5Hl8FF0dl0tOf2ewFYAlIFgzVA==}
     engines: {node: '>=4.5'}
     dependencies:
       chownr: 1.1.4
