@@ -9317,7 +9317,7 @@ packages:
   /makeerror@1.0.11:
     resolution: {integrity: sha512-M/XvMZ6oK4edXjvg/ZYyzByg8kjpVrF/m0x3wbhOlzJfsQgFkqP1rJnLnJExOcslmLSSeLiN6NmF+cBoKJHGTg==}
     dependencies:
-      tmpl: 1.0.4
+      tmpl: 1.0.5
     dev: false
 
   /map-obj@1.0.1:
@@ -13054,8 +13054,8 @@ packages:
       os-tmpdir: 1.0.2
     dev: false
 
-  /tmpl@1.0.4:
-    resolution: {integrity: sha512-9tP427gQBl7Mx3vzr3mquZ+Rq+1sAqIJb5dPSYEjWMYsqitxARsFCHkZS3sDptHAmrUPCZfzXNZqSuBIHdpV5A==}
+  /tmpl@1.0.5:
+    resolution: {integrity: sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==}
     dev: false
 
   /to-fast-properties@1.0.3:
