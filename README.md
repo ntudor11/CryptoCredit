@@ -1,5 +1,5 @@
 # CryptoCredit
-A blockchain lending application prototype with Node.JS and Truffle for the backend and React for the front-end. The centralised prototype and decentralised side are separated and work on different servers.
+A blockchain lending application prototype with Node.JS and Truffle for the backend and React for the front-end. The centralised prototype and decentralised side of the app are separated and are running on different servers.
 
 ## System Installation Guidelines
 
