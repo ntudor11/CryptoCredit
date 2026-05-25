@@ -18,7 +18,7 @@ importers:
         specifier: ^2.8.5
         version: 2.8.5
       dot-prop:
-        specifier: ^5.3.0
+        specifier: ^5.2.0
         version: 5.3.0
       elliptic:
         specifier: ^6.6.1
@@ -27,7 +27,7 @@ importers:
         specifier: ^5.2.0
         version: 5.2.0
       ini:
-        specifier: ^1.3.8
+        specifier: ^1.3.6
         version: 1.3.8
       jsonwebtoken:
         specifier: ^9.0.0
@@ -36,7 +36,7 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3
       minimist:
-        specifier: ^1.2.8
+        specifier: ^1.2.6
         version: 1.2.8
       mysql:
         specifier: ^2.18.0
@@ -60,7 +60,7 @@ importers:
         specifier: ^7.0.3
         version: 7.0.3
       yargs-parser:
-        specifier: ^20.2.4
+        specifier: ^20.2.0
         version: 20.2.4
 
 packages:
