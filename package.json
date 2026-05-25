@@ -27,7 +27,7 @@
     "nodemon": "^3.1.14",
     "react-step-progress-bar": "^1.0.3",
     "sequelize": "^6.37.8",
-    "serialize-javascript": "^7.0.3",
+    "serialize-javascript": "^7.0.5",
     "yargs-parser": "^20.2.0"
   }
 }
