@@ -22,7 +22,7 @@
     "kind-of": "^6.0.3",
     "minimist": "^1.2.6",
     "mysql": "^2.18.0",
-    "mysql2": "^3.9.8",
+    "mysql2": "^3.22.0",
     "node-forge": "^1.4.0",
     "nodemon": "^3.1.14",
     "react-step-progress-bar": "^1.0.3",
