@@ -23,7 +23,7 @@
     "minimist": "^1.2.6",
     "mysql": "^2.18.0",
     "mysql2": "^3.23.1",
-    "node-forge": "^1.4.0",
+    "node-forge": "^1.4.1",
     "nodemon": "^3.1.14",
     "react-step-progress-bar": "^1.0.3",
     "sequelize": "^6.37.8",
